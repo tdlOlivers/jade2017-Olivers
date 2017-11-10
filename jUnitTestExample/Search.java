@@ -1,3 +1,4 @@
+package jUnitTestExample;
 public class Search {
 	public static int find(int x, int[] a) {
 		return binarySearch(x, a, 0, a.length-1);
