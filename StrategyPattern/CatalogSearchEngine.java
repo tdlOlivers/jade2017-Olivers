@@ -3,13 +3,13 @@ package StrategyPattern;
 import java.util.ArrayList;
 public class CatalogSearchEngine {
 
-    private SortStrategy sorter;
+    private SortAlgorithm sorter;
 
-    public CatalogSearchEngine(SortStrategy ss) {
+    public CatalogSearchEngine(SortAlgorithm ss) {
         sorter = ss;
     }
     public ArrayList search() {
-        ArrayList list = a;
+        ArrayList list = null;
         sorter.sort(list);
         return list;
     }

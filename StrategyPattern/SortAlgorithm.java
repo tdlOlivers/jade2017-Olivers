@@ -1,6 +1,6 @@
 package StrategyPattern;
 
 import java.util.ArrayList;
-public interface SortStrategy {
+public interface SortAlgorithm {
     public void sort(ArrayList al);
 }
