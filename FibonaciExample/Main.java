@@ -2,6 +2,7 @@ package FibonaciExample;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// Class Main
 public class Main {
   public static void main(String[] args) {
     System.out.println("Enter N:");
